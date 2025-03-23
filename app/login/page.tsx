@@ -33,20 +33,20 @@ export default function LoginPage() {
             <p className="text-lg">
               &ldquo;Nền tảng này đã giúp tôi tối ưu hóa quy trình làm việc và tăng năng suất đáng kể.&rdquo;
             </p>
-            <footer className="text-sm">Nguyễn Văn A</footer>
+            <footer className="text-sm">SnapLink</footer>
           </blockquote>
         </div>
       </div>
       <div className="lg:p-8">
-        <div className="mx-auto flex w-full flex-col justify-center space-y-6 sm:w-[350px]">
-          <div className="flex flex-col space-y-2 text-center">
+        <div className="mx-auto flex w-full flex-col justify-center space-y-6 sm:w-[600px]">
+          {/* <div className="flex flex-col space-y-2 text-center">
             <h1 className="text-2xl font-semibold tracking-tight">
               Đăng nhập
             </h1>
             <p className="text-sm text-muted-foreground">
               Nhập thông tin đăng nhập của bạn để tiếp tục
             </p>
-          </div>
+          </div> */}
           <LoginForm />
           <p className="px-8 text-center text-sm text-muted-foreground">
             Bằng cách đăng nhập, bạn đồng ý với{" "}

@@ -33,20 +33,20 @@ export default function RegisterPage() {
             <p className="text-lg">
               &ldquo;Đăng ký ngay hôm nay để trải nghiệm những tính năng tuyệt vời mà chúng tôi cung cấp.&rdquo;
             </p>
-            <footer className="text-sm">Trần Thị B</footer>
+            <footer className="text-sm">SnapLink</footer>
           </blockquote>
         </div>
       </div>
       <div className="lg:p-8">
-        <div className="mx-auto flex w-full flex-col justify-center space-y-6 sm:w-[350px]">
-          <div className="flex flex-col space-y-2 text-center">
+        <div className="mx-auto flex w-full flex-col justify-center space-y-6 sm:w-[600px]">
+          {/* <div className="flex flex-col space-y-2 text-center">
             <h1 className="text-2xl font-semibold tracking-tight">
               Tạo tài khoản
             </h1>
             <p className="text-sm text-muted-foreground">
               Nhập thông tin của bạn để tạo tài khoản
             </p>
-          </div>
+          </div> */}
           <RegisterForm />
           <p className="px-8 text-center text-sm text-muted-foreground">
             Bằng cách đăng ký, bạn đồng ý với{" "}
